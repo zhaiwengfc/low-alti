@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>低空经纬 - 低空经济政策与资讯导航</title>
+    <style>
+        :root {
+            --primary-color: #1e3a8a; /* 航空深蓝 */
+            --accent-color: #3b82f6;  /* 科技亮蓝 */
+            --bg-color: #f8fafc;
+            --text-color: #334155;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+        }
+        header h1 { margin: 0; font-size: 1.8rem; letter-spacing: 1px; }
+        header p { margin: 0.5rem 0 0 0; opacity: 0.9; font-size: 0.9rem; }
+        
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .section-title {
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            border-left: 4px solid var(--accent-color);
+            padding-left: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .news-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        .news-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .tag {
+            display: inline-block;
+            background: #e0f2fe;
+            color: #0369a1;
+            font-size: 0.75rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .news-title {
+            font-size: 1.1rem;
+            margin: 0.5rem 0;
+            color: #1e293b;
+        }
+        .news-title a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .news-title a:hover { color: var(--accent-color); }
+        .news-meta {
+            font-size: 0.85rem;
+            color: #94a3b8;
+            display: flex;
+            justify-content: space-between;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #94a3b8;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>低空经纬 🚁</h1>
+        <p>每日更新全球与中国低空经济政策、法规及行业核心资讯</p>
+    </header>
+
+    <div class="container">
+        <div class="section-title">今日政策聚焦 (2026年5月)</div>
+        
+        <!-- 资讯卡片 1 -->
+        <div class="news-card">
+            <span class="tag">国家政策</span>
+            <h2 class="news-title"><a href="#">民航局发布《2026年低空空域数字化管理指南》</a></h2>
+            <div class="news-meta">
+                <span>发布单位：中国民用航空局</span>
+                <span>2026-05-19</span>
+            </div>
+        </div>
+
+        <!-- 资讯卡片 2 -->
+        <div class="news-card">
+            <span class="tag">地方动态</span>
+            <h2 class="news-title"><a href="#">深圳正式启用首批 eVTOL 空中通勤常态化航线</a></h2>
+            <div class="news-meta">
+                <span>来源：深圳交通局</span>
+                <span>2026-05-18</span>
+            </div>
+        </div>
+
+        <!-- 资讯卡片 3 -->
+        <div class="news-card">
+            <span class="tag">适航审定</span>
+            <h2 class="news-title"><a href="#">某头部无人机企业获颁全球首张货运中型无人机TC证</a></h2>
+            <div class="news-meta">
+                <span>来源：行业观察</span>
+                <span>2026-05-17</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 低空经纬 | 聚焦新质生产力，赋能低空大统一市场</p>
+    </footer>
+
+</body>
+</html>
